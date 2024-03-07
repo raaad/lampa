@@ -1,11 +1,8 @@
 {
   "name": "lampa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "build": "npx uglify-js main.js -c -o index.html"
-  },
-  "author": "",
-  "license": "ISC"
+    "build": "npx uglifycss ./src/main.css --output ./main.min.css & node ./build/css-to-js.js & npx uglify-js css.js ./src/main.js -c -o index.html"
+  }
 }
