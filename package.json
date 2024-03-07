@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "build": "ls ./ & npx uglifycss ./src/main.css --output ./main.min.css & node ./build/css-to-js.js & npx uglify-js css.js ./src/main.js -c -o index.html"
+    "build": "ls ./ & npx uglifycss ./src/main.css --output ./main.min.css & ls ./ & node ./build/css-to-js.js & npx uglify-js css.js ./src/main.js -c -o index.html"
   }
 }
