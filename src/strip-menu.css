@@ -22,14 +22,14 @@
   flex-direction: column;
 }
 
-[data-action="main"] {
+[data-action='main'] {
   order: -10;
 }
 
-[data-action="favorite"][data-type="book"] {
+[data-action='favorite'][data-type='book'] {
   order: -9;
 }
 
-[data-action="timetable"] {
+[data-action='timetable'] {
   order: -8;
 }
