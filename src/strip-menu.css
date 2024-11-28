@@ -11,9 +11,15 @@
 .head__action.open--feed,
 .head__action.open--notice,
 .head__action.open--broadcast,
+.head__action.black-friday__button,
 /* card */
 .full-start-new__reactions,
 .full-start__button.button--reaction {
+  display: none !important;
+}
+
+/* fav folders */
+.bookmarks-folder{
   display: none !important;
 }
 
