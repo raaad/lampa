@@ -1,7 +1,11 @@
+- **AD before playback disabled**
 - Customized menu
-  - Some menu items removed
-  - Some items re-ordered
-- Ad removed
+  - Some side menu items hidden
+  - Some header menu items hidden  
+  - Some card items hidden
+  - Some side menu items re-ordered
+- Folders in bookmarks hidden
+- Torrents button pulled up from sub-menu on card
 
 URL:
 
@@ -10,10 +14,6 @@ https://raaad.github.io/lampa
 
 Plugins:
 
-http://lampa.stream/modss
+http://modss.tv
 
-https://bwa.to/plugins/jin.js
-
-https://scabrum.github.io/plugins/jackett.js
-
-http://cub.red/plugin/tmdb-proxy
+https://skaztv.online/store.js -- pirate plugins store

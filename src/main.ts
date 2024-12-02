@@ -1,4 +1,5 @@
 import './manifest';
 import './remove-ad';
-import './remove-trailers-btn';
+import './pull-up-torrents-btn';
+import './remove-fav-folders';
 import './strip-menu';

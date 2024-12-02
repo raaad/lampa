@@ -4,4 +4,4 @@ const el = document.createElement('style');
 el.innerHTML = styleBody;
 document.getElementsByTagName('head')[0].appendChild(el);
 
-console.log('##### MENU ITEM PATCHED');
+console.log('rad_fix', 'Menu items patched');

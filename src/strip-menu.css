@@ -12,14 +12,10 @@
 .head__action.open--notice,
 .head__action.open--broadcast,
 .head__action.black-friday__button,
+.head__action.full-screen,
 /* card */
 .full-start-new__reactions,
 .full-start__button.button--reaction {
-  display: none !important;
-}
-
-/* fav folders */
-.bookmarks-folder{
   display: none !important;
 }
 
@@ -39,4 +35,9 @@
 
 [data-action='timetable'] {
   order: -8;
+}
+
+/* torrents button text always visible */
+.full-start-new__buttons .full-start__button.view--torrent span {
+  display: block;
 }
