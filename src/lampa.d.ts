@@ -1,3 +1,5 @@
+type LampaEvent = { type: string; component: string };
+
 declare var Lampa: {
   Manifest: {
     plugins: any;
@@ -13,7 +15,7 @@ declare var Lampa: {
   };
 
   Listener: {
-    follow(name: string, callback: (e: Event) => void): void;
+    follow(name: string, callback: (e: LampaEvent) => void): void;
   };
 
   Activity: {

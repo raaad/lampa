@@ -4,6 +4,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npx vite",
+    "watch": "npx vite build --watch",
     "build": "npx vite build",
     "rename": "mv ./dist/index.mjs ./dist/index.html",
     "deploy": "npm i & npm run build && npm run rename"
