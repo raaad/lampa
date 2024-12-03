@@ -1,5 +1,3 @@
-/// <reference path="./lampa.d.ts" />
-
 const user = {
   id: 1,
   premium: new Date(2099, 0, 0).getTime()

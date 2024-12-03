@@ -1,3 +1,5 @@
+/// <reference path="./lampa.d.ts" />
+
 import './manifest';
 import './pull-up-torrents-btn';
 import './remove-ad';

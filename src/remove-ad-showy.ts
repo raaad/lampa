@@ -1,5 +1,5 @@
 const SHOWY_AD_SELECTOR = '.myBot';
-const SCAN_PERIOD = 51;
+const SCAN_PERIOD = 25;
 
 Lampa.Listener.follow('activity', ({ type, component }) => {
   if (type === 'start' && component === 'showy') {
