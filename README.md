@@ -14,6 +14,11 @@ https://raaad.github.io/lampa
 
 Plugins:
 
-http://modss.tv
+http://modss.tv                                # MODS`s
+http://showy.online/m.js                       # Showy
+https://nb557.github.io/plugins/online_mod.js  # Онлайн Мод
+https://bwa.to/o                               # BwaJS
 
-https://skaztv.online/store.js -- pirate plugins store
+https://lampame.github.io/main/pubtorr.js      # Public torrents parsers
+
+https://skaztv.online/store.js                 # Pirate store
