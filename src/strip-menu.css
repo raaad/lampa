@@ -29,7 +29,7 @@
   order: -10;
 }
 
-[data-action='favorite'][data-type='book'] {
+[data-action='favorite'] {
   order: -9;
 }
 

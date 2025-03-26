@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npm start",
+      "name": "serve",
+      "preLaunchTask": "watch",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
