@@ -1,6 +1,8 @@
+/// <reference path="./lampa.d.ts" />
+
 Lampa.Manifest.plugins = {
   type: 'plugin',
-  version: '0.2.0',
+  version: '0.3.0',
   name: 'rad_fix',
   description: '',
   component: 'rad_fix'

@@ -27,4 +27,8 @@ declare var Lampa: {
         }
       | undefined;
   };
+
+  Utils: {
+    putScriptAsync(urls: string[], callback: () => void): void;
+  };
 };

@@ -1,9 +1,9 @@
-/// <reference path="./lampa.d.ts" />
-
 import './manifest';
+import './plugins.ext';
 import './pull-up-torrents-btn';
 import './remove-ad';
-import './remove-ad-showy';
 import './remove-fav-folders';
 import './strip-menu';
+
+import './remove-ad-showy';
 

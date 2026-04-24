@@ -15,10 +15,14 @@ https://raaad.github.io/lampa
 |                                               |                         |
 | ---                                           | ---                     |
 | http://modss.tv                               | MODS`s                  |
+| **AUTO INIT PLUGINS**                         | -                       |
+| https://plugin.rootu.top/tmdb.js              | TMDB proxy              |
+| https://amikdn.github.io/anti-dmca.js         | antiDMCA                |
+| https://lampame.github.io/main/pubtorr.js     | Public torrents parsers |
+| https://cub.rip/plugin/lgbt                   | antiLGBT                |
+| **ONLINE**                                    | -                       |
+| http://z01.online/online.js                   | Z1 Online               |
 | http://showy.online/m.js                      | Showy                   |
 | https://nb557.github.io/plugins/online_mod.js | Онлайн Мод              |
-| https://bwa.to/o                              | BwaJS                   |
-|                                               | -                       |
-| https://lampame.github.io/main/pubtorr.js     | Public torrents parsers |
 |                                               | -                       |
 | https://skaztv.online/store.js                | Pirate store            |

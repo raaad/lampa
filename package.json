@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "npx vite",
+    "start": "npx concurrently \"npm run watch\" \"npm run serve\"",
+    "serve": "npx vite preview",
     "watch": "npx vite build --watch",
     "build": "npx vite build",
     "rename": "mv ./dist/index.mjs ./dist/index.html",
