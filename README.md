@@ -23,6 +23,8 @@ https://raaad.github.io/lampa
 | **ONLINE**                                    | -                       |
 | http://z01.online/online.js                   | Z1 Online               |
 | http://showy.online/m.js                      | Showy                   |
+| http://smotret24.ru/online.js                 | Showy+                  |
 | https://nb557.github.io/plugins/online_mod.js | Онлайн Мод              |
+| http://bwa.ad/cloud.js                        | BWA                     |
 |                                               | -                       |
 | https://skaztv.online/store.js                | Pirate store            |

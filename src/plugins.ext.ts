@@ -1,3 +1,5 @@
+/// <reference path="./lampa.d.ts" />
+
 (function () {
   'use strict';
 

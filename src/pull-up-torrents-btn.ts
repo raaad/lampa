@@ -1,3 +1,5 @@
+/// <reference path="./lampa.d.ts" />
+
 const TORRENT_BUTTON_SELECTOR = '.view--torrent';
 const PLAY_BUTTTONS_SELECTOR = '.full-start__button.selector.button--play';
 
