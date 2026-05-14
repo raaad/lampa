@@ -3,9 +3,9 @@
 (function () {
   'use strict';
 
-  Lampa.Utils.putScript(
+  Lampa.Utils.putScriptAsync(
     [
-      // 'https://plugin.rootu.top/tmdb.js', // poor quality
+      'https://plugin.rootu.top/tmdb.js',
       'https://amikdn.github.io/anti-dmca.js',
       'https://lampame.github.io/main/pubtorr.js',
       'https://cub.rip/plugin/lgbt'
