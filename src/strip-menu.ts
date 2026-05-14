@@ -16,7 +16,8 @@ Lampa.Storage.set(
     'Аниме',
     'Подписки',
     'Торренты',
-    'Спорт'
+    'Спорт',
+    'Shorts'
   ])
 );
 Lampa.Storage.set(
