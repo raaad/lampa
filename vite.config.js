@@ -6,8 +6,24 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, './src/main.ts'),
       name: 'rad_fix',
-      fileName: 'index'
+      fileName: 'index',
+      formats: ['umd']
     },
-    minify: true
-  }
+    minify: true,
+    rollupOptions: {
+      output: {
+        entryFileNames: `index.html`
+      }
+    }
+  },
+  plugins: [
+    {
+      configurePreviewServer(server) {
+        server.middlewares.use((req, res, next) => {
+          req.headers['sec-fetch-dest'] = 'document';
+          next();
+        });
+      }
+    }
+  ]
 });

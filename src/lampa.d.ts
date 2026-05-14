@@ -7,6 +7,8 @@ declare var Lampa: {
 
   Storage: {
     get(name: string, empty: string): unknown;
+    set(name: string, value: string): void;
+    field(name: string): string;
   };
 
   Component: {
@@ -29,6 +31,17 @@ declare var Lampa: {
   };
 
   Utils: {
+    putScript(urls: string[], callback: () => void): void;
     putScriptAsync(urls: string[], callback: () => void): void;
+    protocol(): string;
+  };
+
+  TMDB: {
+    image(url: string): string;
+    api(url: string): string;
+  };
+
+  Settings: {
+    listener: { follow(mode: 'open', callback: (e: unknown) => void): void };
   };
 };

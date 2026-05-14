@@ -1,5 +1,3 @@
-/// <reference path="./lampa.d.ts" />
-
 const COMPONENT_NAME = 'bookmarks';
 const FOLDER_SELECTOR = '.bookmarks-folder';
 

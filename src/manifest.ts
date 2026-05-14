@@ -1,5 +1,3 @@
-/// <reference path="./lampa.d.ts" />
-
 Lampa.Manifest.plugins = {
   type: 'plugin',
   version: '0.3.0',

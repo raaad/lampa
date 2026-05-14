@@ -1,0 +1,6 @@
+{
+  "isolatedModules": true,
+  "compilerOptions": {
+    "strict": true
+  }
+}

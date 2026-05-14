@@ -2,13 +2,12 @@
   "name": "lampa",
   "version": "1.0.0",
   "main": "index.html",
+  "type": "module",
   "scripts": {
     "start": "npx concurrently \"npm run watch\" \"npm run serve\"",
     "serve": "npx vite preview",
     "watch": "npx vite build --watch",
-    "build": "npx vite build",
-    "rename": "mv ./dist/index.mjs ./dist/index.html",
-    "deploy": "npm i & npm run build && npm run rename"
+    "build": "npx vite build"
   },
   "devDependencies": {
     "vite": "^5.1.6"
