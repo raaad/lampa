@@ -1,4 +1,3 @@
-import './lgbt.force';
 import './manifest';
 import './plugins.ext';
 import './pull-up-torrents-btn';
