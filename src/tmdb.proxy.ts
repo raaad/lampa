@@ -1,5 +1,5 @@
-Lampa.TMDB.image = (url) => `http://tmdbimg.lampalands.ru/${url}`;
+Lampa.TMDB.image = (url) => `http://lampalands.ru/tmdb/img/${url}`;
 
-Lampa.TMDB.api = (url) => `http://tmdbapi.lampalands.ru/3/${url}`;
+Lampa.TMDB.api = (url) => `http://lampalands.ru/tmdb/api/3/${url}`;
 
 console.log('rad_fix', 'TMDB proxy forced');
