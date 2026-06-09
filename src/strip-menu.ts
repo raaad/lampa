@@ -17,7 +17,7 @@ Lampa.Storage.set(
     'Подписки',
     'Торренты',
     'Спорт',
-    'Shorts'
+    'Shots'
   ])
 );
 Lampa.Storage.set(
