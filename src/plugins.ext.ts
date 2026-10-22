@@ -2,7 +2,8 @@ Lampa.Utils.putScriptAsync(
   [
     // 'https://plugin.rootu.top/tmdb.js', // poor quality
     'https://amikdn.github.io/anti-dmca.js',
-    'https://lampame.github.io/main/pubtorr.js'
+    'https://lampame.github.io/main/pubtorr.js',
+    'https://and7ey.github.io/lampa/noshots.js'
     // 'https://cub.rip/plugin/lgbt' // build-in
   ],
   () => {}

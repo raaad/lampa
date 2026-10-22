@@ -17,10 +17,7 @@
 .head__action.open--feed,
 .head__action.open--profile,
 .head__action.black-friday__button,
-.head__action.full-screen,
-/* card */
-.full-start-new__reactions,
-.full-start__button.button--reaction {
+.head__action.full-screen {
   display: none !important;
 }
 
@@ -45,4 +42,18 @@
 /* torrents button text always visible */
 .full-start-new__buttons .full-start__button.view--torrent span {
   display: block;
+}
+
+/* card */
+.full-start-new__reactions,
+.full-start__button.button--reaction {
+  display: none !important;
+}
+/* review & comments */
+.items-line:has(.full-review),
+/* metrics */
+.items-line:has(.register--with-chart) ,
+/* moods metrics */
+ .items-line:has(.register--tag) {
+  display: none !important;
 }
