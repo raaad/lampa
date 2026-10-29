@@ -63,7 +63,8 @@
 
 /* CUB */
 .ad-server,
-.settings-param-title {
+.settings-param-title,
+.settings-folder[data-component='shots'] {
   display: none !important;
 }
 
@@ -83,4 +84,14 @@
 
 .showy-pro-entry-banner + .online-prestige {
   margin-top: 1.6rem;
+}
+
+/* EXIT button always the last one */
+.settings__body .scroll__body > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-folder[data-component='mods_exit'] {
+  order: 999;
 }
