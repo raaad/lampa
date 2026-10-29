@@ -41,14 +41,16 @@
   order: -8;
 }
 
+/* card */
+
 /* torrents button text always visible */
 .full-start-new__buttons .full-start__button.view--torrent span {
   display: block;
 }
 
-/* card */
 .full-start-new__reactions,
-.full-start__button.button--reaction {
+.full-start__button.button--reaction,
+.full-start__button.button--options {
   display: none !important;
 }
 
