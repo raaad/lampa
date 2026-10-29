@@ -2,6 +2,7 @@ const SHOWY_AD_SELECTOR = '.myBot';
 const SCAN_PERIOD = 25;
 
 Lampa.Listener.follow('activity', ({ type, component }) => {
+  console.log(type, component);
   if (type === 'start' && ['showy', 'smotrolet'].includes(component)) {
     const id = setInterval(() => {
       const ad = document.querySelector(SHOWY_AD_SELECTOR);
@@ -25,4 +26,4 @@ setTimeout(() => {
       e.getAttribute('data-component')
     )
   );
-}, 5000);
+}, 30000);
