@@ -8,7 +8,7 @@
 - The Torrents button is pulled up from the submenu on the card
 - LGBT restrictions disabled
 - Showy AD hidden
-- Force TMDB proxy
+- Custom TMDB proxy
 
 ### URL
 
