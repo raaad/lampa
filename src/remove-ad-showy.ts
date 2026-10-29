@@ -27,3 +27,14 @@ setTimeout(() => {
     )
   );
 }, 30000);
+
+let elem = Lampa.Menu.addaddElement(document.createElement('button'), () => {
+  // вызывается при нажатии на элемент
+  console.log(
+    'rad_fix',
+    [...document.querySelectorAll('[data-component]')].map((e) =>
+      e.getAttribute('data-component')
+    )
+  );
+});
+elem.addClass('my_class');
