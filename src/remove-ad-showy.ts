@@ -17,3 +17,12 @@ Lampa.Listener.follow('activity', ({ type, component }) => {
 });
 
 console.log('rad_fix', 'Showy AD patched');
+
+setTimeout(() => {
+  console.log(
+    'rad_fix',
+    [...document.querySelectorAll('[data-component]')].map((e) =>
+      e.getAttribute('data-component')
+    )
+  );
+}, 5000);

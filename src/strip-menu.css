@@ -17,6 +17,8 @@
 .head__action.open--feed,
 .head__action.open--profile,
 .head__action.black-friday__button,
+.head__logo-halloween,
+.halloween__button,
 .head__action.full-screen {
   display: none !important;
 }
@@ -49,6 +51,7 @@
 .full-start__button.button--reaction {
   display: none !important;
 }
+
 /* review & comments */
 .items-line:has(.full-review),
 /* metrics */
@@ -56,4 +59,28 @@
 /* moods metrics */
  .items-line:has(.register--tag) {
   display: none !important;
+}
+
+/* CUB */
+.ad-server,
+.settings-param-title {
+  display: none !important;
+}
+
+/* BWA */
+[data-action='bwa_fovea'] {
+  display: none;
+}
+
+/* SHOWY */
+.modal:has(.showy-marketing-expired) {
+  display: none;
+}
+
+.showy-pro-entry-banner {
+  display: none !important;
+}
+
+.showy-pro-entry-banner + .online-prestige {
+  margin-top: 1.6rem;
 }
